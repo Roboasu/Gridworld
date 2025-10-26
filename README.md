@@ -43,7 +43,7 @@ assignment2.py (single run):
   - Step cost: -0.04
 - To match a different start (e.g., (2,0)), change GridWorld.start
 
-hypertuning2.py (tuning):
+hypertuning.py (tuning):
 - Sweeps: gamma in {0.9, 0.99}, epsilon in {1.0, 0.8}, lr in {1e-3, 5e-3}
 - Each config trains for 1000 episodes
 - Training capped at 200 steps/episode to avoid infinite loops
